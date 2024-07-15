@@ -16,3 +16,12 @@ understand the code with respect to architecture of bert and spacy
 ---- post completing end to end projects
 
 code and informarion level-- go througha ll answers and analogy
+
+
+
+
+important commands--
+
+git add .
+git commit " xyz task name" 
+git push origin main
