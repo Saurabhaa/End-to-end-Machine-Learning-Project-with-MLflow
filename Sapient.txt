@@ -25,3 +25,40 @@ important commands--
 git add .
 git commit " xyz task name" 
 git push origin main
+
+
+
+---step 1 setting github
+---step 2  creating structure for modularized code using template.py
+---step 3 installing requirements.txt using setup.py file, which is useful for local isntallation of libraries so that using init , we cal call the installed packages
+----step 4  logging ,exceptions and utils module creation--
+within src -- we have utils
+///exception would be created separately using python box
+/// inside src we have one init constructor file, instead of creation seprate loggin folder, lets create it within init file just to makeit import easy
+---created logging functionality within init
+
+---- utils is where we store commonly repeating files
+---commons.py--- we need to read a lot of yaml files, so code to automate that
+--- tHE content that is read from yaml is returnd as configbox
+basic used to access value with different ways
+ensure annotations---
+
+
+def get_predict(x :int, y:int) -->int
+	return x*y
+
+
+get_predict(x=2,y=4)
+8
+
+get_predict(x=2,y="4")
+44--- unexpected output
+
+to handle that it is used
+
+@ensure annotations
+get_predict(x=2,y="4")
+gives errors
+
+
+---
